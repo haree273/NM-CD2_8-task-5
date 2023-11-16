@@ -13,7 +13,8 @@
 
 ## QUERY
 ```sql
-USE NOTES;
+CREATE DATABASE notes;
+USE notes;
 
 CREATE TABLE `note` (
   `id` bigint NOT NULL AUTO_INCREMENT,
